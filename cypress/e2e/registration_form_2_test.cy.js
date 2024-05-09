@@ -13,7 +13,7 @@ describe('Section 1: Functional tests', () => {
         cy.get('#username').type('Tertsu50')
         cy.get('#email').type('terje@mail.ee')
         cy.get('input[name="name"]').type('Terje')
-        cy.get('#lastName').type('Kivisaar')
+        cy.get('#lastName').type('Kivisar')
         cy.get('[data-testid="phoneNumberTestId"]').type('37255676067')
         cy.get('input[name="password"]').type('Password321')
         cy.get('[name="confirm"]').type('Password321')

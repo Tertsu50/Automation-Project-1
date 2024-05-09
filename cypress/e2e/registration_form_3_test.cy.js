@@ -2,6 +2,7 @@ beforeEach(() => {
     cy.visit('cypress/fixtures/registration_form_3.html')
 })
 
+it('Email input should support correct pattern', () => {
 /*
 BONUS TASK: add visual tests for registration form 3
 Task list:
@@ -26,3 +27,4 @@ Task list:
     * mandatory fields are absent + corresponding assertions (try using function)
     * add file functionlity(google yourself for solution!)
  */
+})
